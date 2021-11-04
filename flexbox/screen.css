@@ -26,11 +26,25 @@ html {
   padding: 22px;
 }
 
-p {
-  padding-bottom: 22px;
+.box-art {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 11px;
 }
 
 figure {
   padding-bottom: 11px;
   padding-top: 11px;
+  flex: 1 0 50%;
+
+}
+
+p {
+  padding-top: 11px;
+  padding-bottom: 22px;
+  flex: 1 0 200px;
+}
+
+h2 {
+  flex: 1 0 100%;
 }
